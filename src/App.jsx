@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScanPage from "./pages/ScanPage";
 import ProductPage from "./pages/ProductPage";
-import "./styles/app.css";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -15,6 +15,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
